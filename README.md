@@ -13,18 +13,27 @@ I will be selecting a max of 5 counties or (pueblos) out of the 78 that are in P
 What are the basic requirments of this project:
 
 1.Create an interactive web site with dashboards (one or more pages) that either tells a story with data or provides a rich experience for allowing users to interact with data. Your project should meet the following requirements at minimum:
+
 2.Include a Python Flask–powered RESTful API, HTML/CSS, JavaScript, and at least one cloud database (MySQL or Postgres on AWS or MongoDB on MongoDB Atlas)
+
 3.Work with a data set that contains at least 500 records
+
 4.Contain database and web site integration through Flask where data manipulations are done using Python and/or JavaScript prior to visualization
+
 5.Utilize Plotly and/or Leaflet to create one or more web dashboards with interactive, dynamic, filterable web visualizations and/or maps and include at least three views of the data
+
 6.Include some level of user-driven interaction (e.g., menus, dropdowns, textboxes)
+
 7.Be deployed to Heroku and should be fully functional on any machine at any location
 
 Things that I want to also implement on this project if time permits:
 
 1.Include one JavaScript library that we did not cover
+
 2.Deploying a bot that does automated data operations and updates a cloud database (nightly or multiple times per day)
+
 3.Incorporate web scraping into your project
+
 4.More robust UX requirements
 
 
