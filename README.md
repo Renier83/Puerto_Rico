@@ -44,3 +44,18 @@ I will be using google API for the current data and web scrapping to see if ther
 I want to also see what types of restaurants have been able to survive the natural disasters and economic pressures that the island have faced since Hurracane Maria.
 
 How will this data be used for project 3 you ask? Well if you end up in the team i will tell you or you will have to wait and see when I present it =)
+
+The 5 cities that i will work with are:
+1. San Juan
+2. Ponce
+3. Rincon
+4. Fajardo
+5. Arecibo
+
+Types of restaurants we will be looking at:
+1. Spanish 
+2. puertorican
+3. middle eastern
+4. chinese
+5. fast food
+6. bar restaurant
