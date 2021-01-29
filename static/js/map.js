@@ -8,3 +8,20 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoicmVuaWVycHIiLCJhIjoiY2trZW9kdDhsMDFlNzJ1cGJmNWx3MHR0aSJ9.uSCpxR81uvourow2XGgpDA'
 }).addTo(mymap);
 
+d3.json('/api/restaurants').then(data => {
+    console.log(data);
+
+    data.forEach(d => {
+
+        var coords = [d['lat'], d['lng']];
+        var name = d['name'];
+        var address = d['address'];
+
+
+        
+        marker = L.marker(coords, {'title': name});
+        marker.bindPopup(`<h4>${name}</h4><hr/><b>${address}</b>`)
+        marker.addTo(mymap);
+
+    });
+});
