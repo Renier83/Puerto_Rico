@@ -46,6 +46,35 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/SanJuan')
+def Sanjuan():
+    return render_template('SanJuan.html')
+
+@app.route('/Ponce')
+def Ponce():
+    return render_template('Ponce.html')
+
+@app.route('/Fajardo')
+def Fajardo():
+    return render_template('Fajardo.html')
+
+@app.route('/Rincon')
+def Rincon():
+    return render_template('Rincon.html')
+
+@app.route('/Arecibo')
+def Arecibo():
+    return render_template('Arecibo.html')
+
+@app.route('/Humacao')
+def Humacao():
+    return render_template('Humacao.html')
+
+@app.route('/Mayaguez')
+def Mayaguez():
+    return render_template('Mayaguez.html')
+
+
 # set up the data route
 @app.route('/api/restaurants')
 def get_restaurants():
