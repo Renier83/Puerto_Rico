@@ -47,30 +47,38 @@ def home():
     return render_template('index.html')
 
 @app.route('/SanJuan')
+@app.route('/SanJuan.html')
 def Sanjuan():
     return render_template('SanJuan.html')
 
+
 @app.route('/Ponce')
+@app.route('/Ponce.html')
 def Ponce():
     return render_template('Ponce.html')
 
 @app.route('/Fajardo')
+@app.route('/Fajardo.html')
 def Fajardo():
     return render_template('Fajardo.html')
 
 @app.route('/Rincon')
+@app.route('/Rincon.html')
 def Rincon():
     return render_template('Rincon.html')
 
 @app.route('/Arecibo')
+@app.route('/Arecibo.html')
 def Arecibo():
     return render_template('Arecibo.html')
 
 @app.route('/Humacao')
+@app.route('/Humacao.html')
 def Humacao():
     return render_template('Humacao.html')
 
 @app.route('/Mayaguez')
+@app.route('/Mayague.html')
 def Mayaguez():
     return render_template('Mayaguez.html')
 
