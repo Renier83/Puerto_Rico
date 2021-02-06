@@ -1,5 +1,9 @@
 import os
 
+# # impointing Dash to help with plotly and using flask
+# from dash import Dash
+# import dash_core_components as dcc
+# import dash_html_components as html
 # Heroku check
 is_heroku = False
 if 'IS_HEROKU' in os.environ:
@@ -94,7 +98,7 @@ def get_restaurants():
         SELECT
             *
         FROM
-            restaurants
+            restaurants_new
         '''
     
     resturants_data = pd.read_sql(query, con=conn)
@@ -105,3 +109,18 @@ def get_restaurants():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+#     # dash code to work in html and import flask into it
+
+#     app = Dash(
+#     __name__,
+#     external_stylesheets=['/static/css/style.css'],
+#     external_scripts=external_scripts,
+#     routes_pathname_prefix='/dash/'
+# )
+# #still need to figure this part out
+# app.layout = html.Div(id='example-div-element')
+
+
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
