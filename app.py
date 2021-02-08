@@ -218,21 +218,3 @@ def get_restaurants():
 
 if __name__ == "__main__":
     app.run(debug=True)
-<<<<<<< HEAD
-=======
-
-#     # dash code to work in html and import flask into it
-
-#     app = Dash(
-#     __name__,
-#     external_stylesheets=['/static/css/style.css'],
-#     external_scripts=external_scripts,
-#     routes_pathname_prefix='/dash/'
-# )
-# #still need to figure this part out
-# app.layout = html.Div(id='example-div-element')
-
-
-# if __name__ == '__main__':
-#     app.run_server(debug=True)
->>>>>>> d53b65b75fc0859a881e68ef20ce00dd42c90014
